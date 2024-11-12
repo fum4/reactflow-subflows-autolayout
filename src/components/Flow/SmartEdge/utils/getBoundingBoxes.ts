@@ -1,5 +1,4 @@
-import type {XYPosition} from 'reactflow';
-import type {Node} from 'src/types';
+import type {Node, XYPosition} from 'reactflow';
 
 import {roundDown, roundUp} from './helpers';
 

@@ -1,5 +1,4 @@
-import type {EdgeProps} from 'reactflow';
-import type {Node} from 'src/types';
+import type {Node, EdgeProps} from 'reactflow';
 
 import {createGrid, type PointInfo} from './createGrid';
 import {pathfindingAStarDiagonal, type PathFindingFunction,} from './generatePath';
