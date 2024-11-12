@@ -115,6 +115,7 @@ export const Flow = () => {
                 onNodesDelete={handleNodesDelete}
                 onEdgesChange={onEdgesChange}
                 deleteKeyCode={['Backspace', 'Delete']}
+                fitView
             >
                 <Controls/>
                 <Background/>
